@@ -1,0 +1,33 @@
+{
+  "name": "translate-cli",
+  "version": "1.0.0",
+  "description": "这是一个用node编写的终端翻译工具",
+  "main": "index.js",
+  "bin": {
+    "translate": "bin/translate.js",
+    "tl": "bin/translate.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangyifei007/translate-cli.git"
+  },
+  "keywords": [
+    "translate",
+    "node"
+  ],
+  "author": "Bill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangyifei007/translate-cli/issues"
+  },
+  "homepage": "https://github.com/zhangyifei007/translate-cli#readme",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "commander": "^2.15.1",
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
